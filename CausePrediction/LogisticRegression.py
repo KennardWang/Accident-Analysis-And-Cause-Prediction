@@ -90,8 +90,7 @@ def predict(X, all_theta):
     # because our array was zero-indexed we need to add one for the true label prediction
     h_argmax = h_argmax + 1
 
-    print(h_argmax)
-
+    #print(h_argmax)
     return h_argmax
 
 

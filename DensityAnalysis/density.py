@@ -12,7 +12,7 @@ def plot_density(data, row_num, type):
     plt.title('Density')
 
     if type:
-        plt.xlabel('Region')
+        plt.xlabel('District')
     else:
         plt.xlabel('Time')
 
@@ -43,9 +43,9 @@ def plot_density(data, row_num, type):
 
 if __name__ == '__main__':
 
-    data = np.array(pd.read_excel('density_WithTime.xls'))
+    data = np.array(pd.read_excel('density_WithDistrict.xls'))
     row_num = data.shape[0]
     #print(data)
 
     # draw
-    plot_density(data, row_num, 0)
+    plot_density(data, row_num, 1)

@@ -87,8 +87,8 @@ def back_propagate(params, input_size, hidden_size, num_labels, X, y, learning_r
 
     # initializations
     J = 0
-    delta1 = np.zeros(theta1.shape)  # (25, 401)
-    delta2 = np.zeros(theta2.shape)  # (10, 26)
+    delta1 = np.zeros(theta1.shape)
+    delta2 = np.zeros(theta2.shape)
 
     # compute the cost
     for i in range(m):
