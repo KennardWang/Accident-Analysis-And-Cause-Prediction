@@ -33,9 +33,9 @@
 
 ------
 ### Task
-1. Do a research on a relationship among region, time and main cause during a car accident.
+1. Do a research on a relationship among district, time and main cause during a car accident.
 2. Analyse rudimentary data and plot.
-3. Try to build a model to predict main cause if region and time information are given.
+3. Try to build a model to predict main cause if district and time information are given.
 
 ------
 ### What ability can we acquire ? 
