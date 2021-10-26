@@ -13,10 +13,6 @@
 
 ![demo1](https://kennardwang.github.io/ImageSource/Accident-Analysis-And-Cause-Prediction/demo3.png)
 
-+ Prediction With Logistic Regression
-
-![demo1](https://kennardwang.github.io/ImageSource/Accident-Analysis-And-Cause-Prediction/demo4.png)
-
 + Prediction With NN Forward Propagate
 
 ![demo1](https://kennardwang.github.io/ImageSource/Accident-Analysis-And-Cause-Prediction/demo5.png)
@@ -28,8 +24,8 @@
 |Column|Range|Representitive|
 |:---:|:---:|:---:|
 |District|1~12|12 different districts in our city|
-|Time|0~23|24 hours a day|
-|Cause|1~4|4 different main causes: 1 = collided with car; 2 = collided with bicycle, pedestrian; 3 = collided with construction material, building, road infrastructure, trees, animals; 4 = extreme weather & unpredicted accident
+|Time|0~23|24 hours|
+|Cause|1~4|4 different main causes: 1 = collision with car; 2 = collision with bicycle or pedestrian; 3 = collision with construction materials such as building, road infrastructure, trees and animals; 4 = extreme weather & unpredicted accidents
 
 ------
 ### Task
@@ -38,10 +34,10 @@
 3. Try to build a model to predict main cause if district and time information are given.
 
 ------
-### What ability can we acquire ? 
+### Contribution
 + Pre-process data by Excel.
 + SQL basic operation.
-+ Learn to use numpy, pandas, matplotlib package in py.
++ Learn how to use Python packages such as numpy, pandas, matplotlib.
 + Familiar with Logistic Regression and Neural Netowrk algorithms implemented by Python.
 
 ------
